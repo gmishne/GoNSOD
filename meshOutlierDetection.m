@@ -8,10 +8,12 @@
 %
 % download Gabriel Payne's Graph theory toolbox and add to path
 % https://www.mathworks.com/matlabcentral/fileexchange/5355-toolbox-graph
-path_to_toolbox = '/Users/mishne/Dropbox/Yale/code/anomaly_stefan/toolbox_graph';
+% update to local path of toolbox:
+% path_to_toolbox = '/toolbox_graph';
 addpath([path_to_toolbox '/toolbox_graph']);
 % download diffusion map utils from
-addpath('../utils');
+% https://github.com/gmishne/diffusion_maps
+addpath('../diffusion_maps');
 %% load data
 % stanford bunny from http://graphics.stanford.edu/data/3Dscanrep/ 
 load('bunny.mat');

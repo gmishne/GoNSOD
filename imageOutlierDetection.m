@@ -12,7 +12,8 @@ function [detIm ] = imageOutlierDetection(im, configParams)
 % Gal Mishne 2017
 %
 % download diffusion map utils from
-addpath('../utils');
+% https://github.com/gmishne/diffusion_maps
+addpath('../diffusion_maps');
 %% 
 if nargin < 2
     configParams = setAnomalyDetParams;
